@@ -1,1 +1,184 @@
-<h1>Welcome to Lynn's software development site.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynn's Dev Blog ✨</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffd6e8 0%, #ffd6f7 50%, #e8d6ff 100%);
+            color: #5a3858;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 3px solid #ff9ec7;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #d946a6;
+            margin-bottom: 0.5rem;
+            font-family: 'Palatino', serif;
+        }
+
+        header p {
+            color: #8b5a8e;
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .profile {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 16px rgba(217, 70, 166, 0.2);
+            border: 2px solid #ffc4e6;
+        }
+
+        .profile h2 {
+            color: #d946a6;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .profile p {
+            color: #6b4c6a;
+            margin-bottom: 0.8rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .tag {
+            background: linear-gradient(135deg, #ff9ec7, #ffc4e6);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 16px rgba(217, 70, 166, 0.2);
+            border: 2px solid #ffc4e6;
+        }
+
+        .blog-post h3 {
+            color: #d946a6;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-date {
+            color: #b37db3;
+            font-size: 0.9rem;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post p {
+            color: #6b4c6a;
+            margin-bottom: 1rem;
+        }
+
+        .blog-post code {
+            background: #fff0f8;
+            padding: 0.2rem 0.5rem;
+            border-radius: 5px;
+            color: #c73a9e;
+            font-family: 'Courier New', monospace;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #8b5a8e;
+            font-style: italic;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 2rem 0;
+            color: #ff9ec7;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ Lynn's Dev Blog ✨</h1>
+        <p>Coding with style & a sprinkle of magic</p>
+    </header>
+
+    <div class="container">
+        <div class="profile">
+            <h2>💖 About Lynn</h2>
+            <p>Hi! I'm Lynn, a developer who loves creating beautiful, functional code. When I'm not debugging or building new projects, you'll find me exploring the latest frontend frameworks, sipping bubble tea, and making tech a little more colorful.</p>
+            <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">CSS Enthusiast</span>
+                <span class="tag">UI/UX</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Coffee Lover</span>
+            </div>
+        </div>
+
+        <div class="divider">✿ ❀ ✿</div>
+
+        <article class="blog-post">
+            <h3>Why I Fell in Love with CSS Grid</h3>
+            <div class="blog-date">October 15, 2025</div>
+            <p>There's something magical about CSS Grid that just makes my designer heart flutter! The way you can create complex layouts with just a few lines of code is absolutely dreamy.</p>
+            <p>I recently rebuilt my portfolio using <code>grid-template-areas</code> and it was such a game-changer. No more fighting with floats or getting lost in flexbox nesting!</p>
+            <p>My favorite part? Creating responsive designs without media query overload. Grid makes everything feel so elegant and intentional. 💕</p>
+        </article>
+
+        <article class="blog-post">
+            <h3>Building My First VS Code Theme</h3>
+            <div class="blog-date">October 8, 2025</div>
+            <p>I finally did it! I created my own VS Code theme called "Lavender Dreams" and I couldn't be happier. Soft purples, gentle pinks, and the perfect amount of contrast for those late-night coding sessions.</p>
+            <p>The process taught me so much about color theory and accessibility. Making sure syntax highlighting was both pretty AND readable was trickier than I expected, but totally worth it!</p>
+            <p>If you want to try it, it's up on the marketplace. Would love to hear what you think! 🌸</p>
+        </article>
+
+        <article class="blog-post">
+            <h3>My Morning Dev Routine</h3>
+            <div class="blog-date">October 1, 2025</div>
+            <p>Starting my day right makes all the difference in productivity! Here's what works for me:</p>
+            <p>First, I grab my favorite rose latte and review my GitHub notifications while everything loads. Then I spend 30 minutes on LeetCode (yes, even algorithms can be fun with the right mindset!). Finally, I check in with my team and prioritize my sprint tasks.</p>
+            <p>The key? Making everything feel less like work and more like creating something beautiful. Because that's what code is—art that happens to run. ✨</p>
+        </article>
+    </div>
+
+    <footer>
+        <p>Made with 💖 by Lynn | © 2025</p>
+    </footer>
+</body>
+</html>
